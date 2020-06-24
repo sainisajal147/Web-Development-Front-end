@@ -28,7 +28,7 @@ p{
 	float:right;
 }
 	h1{
-		color:grey;
+		color: black;
 		font-size: 22px;
 		text-align: center;
 		box-sizing: border-box;
@@ -36,6 +36,6 @@ p{
 		padding: 0;
 	}
 body{
-	background-color: light gray;
+	background-color: gray;
 	font-size: 120%;
 }
