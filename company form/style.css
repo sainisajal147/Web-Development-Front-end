@@ -2,5 +2,34 @@
 	color:blue;
 }
 body{
-	
+	font-style: Arial;
+}
+#p1{
+	padding:20px;
+	border:1px solid black ;
+	margin:20px;
+	width:40%;
+	overflow:auto;
+	box-sizing: border-box;
+	float:right;
+	background-color: white;
+}
+#p2{
+	padding:20px;
+	border:1px solid black ;
+	margin:20px;
+	width:40%;
+	overflow:auto;
+	box-sizing: border-box;
+	background-color: white;
+	float: left;
+}
+#p3{
+	padding:20px;
+	border:1px solid black ;
+	margin:100px;
+	overflow:auto;
+	box-sizing: border-box;
+	float:center;
+	background-color: grey;
 }
