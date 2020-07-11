@@ -1,0 +1,68 @@
+section{
+	box-sizing: border-box;
+	background: grey;
+	border: 1px solid black;
+	padding: 5px;
+}
+p{
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: relative;
+	padding: 5px;
+	right: -70%;
+	width: 30%;
+}
+#p1 > p{
+	background: pink;
+}
+#p2 > p{
+	background: red;
+}
+#p3 > p{
+	background: yellow;
+}
+@media(min-width: 992px){
+#p1{
+	position: relative;
+	margin-left: 10%;
+	width: 20%;
+	float: left;
+}
+#p2{
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 20%;
+	float: right;
+}
+#p3{
+	position: relative;
+	width: 20%;
+	float: right;
+}
+}
+@media(min-width:768px) and (max-width: 991px){
+#p1{
+	float: left;
+	width: 35%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+#p2{
+	float: right;
+	width: 35%;
+	margin-right: 10%;
+}
+#p3{
+	clear: both;
+	margin: 10%;
+	width: 80%;
+}
+}
+@media(max-width:768px){
+section{
+	margin: 10%;
+	width: 80%;
+}
+}
