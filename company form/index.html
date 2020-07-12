@@ -9,14 +9,38 @@
 <body>
 	<header>Company Addition Form</header>
 	<hr>
-	<ul id="p3">
-	<p id="p2">Company Name <input class="form" type="text"><button>Search</button></p>
-	<p id="p1">Nature of Job <input class="form" type="text"><button>Search</button></p>
-	<p id="p2">Offered Program <input class="form" type="text"><button>Search</button></p>
-	<p id="p1">Opportunity <input class="form" type="text"><button>Search</button></p>
-	<div align="center"><button>Submit</button></div>
-	</ul>
+	<ul id="f">
+	<section id="p1" class="form-group">
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Company Name">
+  </section>
 
+  <section id="p2" class="form-group">
+    <select class="form-control">
+    <option >Offered Discipline</option>
+    	<option>CSE</option>
+    	<option>EE</option>
+    	<option>ME</option>
+    </select>
+  </section>
+
+  <section id="p3" class="form-group">
+    <select class="form-control">
+    	<option>Offered Program</option>
+    	<option>M.tech</option>
+    	<option>B.tech</option>
+	</select>
+  </section>
+
+  <section id="p4" class="form-group">
+    <select class="form-control">
+    	<option>Opportunity</option>
+ 	 	<option>Internship</option>
+  		<option>Placement</option>
+  		<option>Both</option>
+	</select>
+  </section>
+  <button id="default" type="submit" class="btn btn-primary">Submit</button>
+</ul>
 	<hr>
 	<footer>&copy footer</footer>
 </body>

@@ -1,35 +1,52 @@
-#form{
-	color:blue;
-}
 body{
-	font-style: Arial;
+	background-image: url("https://www.insidehighered.com/sites/default/server_files/media/iStock-1154631974.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 510px;
 }
-#p1{
-	padding:20px;
-	border:1px solid black ;
-	margin:20px;
-	width:40%;
-	overflow:auto;
+#f{
+	background: lightgrey;
+	margin:5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
 	box-sizing: border-box;
-	float:right;
-	background-color: white;
+	border-radius: 10px;
+	padding: 3%;
 }
-#p2{
-	padding:20px;
-	border:1px solid black ;
-	margin:20px;
-	width:40%;
-	overflow:auto;
-	box-sizing: border-box;
-	background-color: white;
-	float: left;
+@media(min-width: 750px)
+{
+	section{
+	width: 40%;
+	margin:5%;
+		}
+	#p1{
+		float: left;
+		}
+	#p2{
+		float: right;
+		}
+	#p3{
+		clear: both;
+		float: left;
+		}
+	#p4{
+		float: right;
+	}
 }
-#p3{
-	padding:20px;
-	border:1px solid black ;
-	margin:100px;
-	overflow:auto;
-	box-sizing: border-box;
-	float:center;
-	background-color: grey;
+@media(max-width: 749px)
+{
+	section{
+		width: 80%;
+		margin:5%;
+		margin-left: 10%;
+	}
+}
+#default{
+	width: 30%;
+	margin:5%;
+	clear: both;
+	position: relative;
+	left: 30%;
 }
