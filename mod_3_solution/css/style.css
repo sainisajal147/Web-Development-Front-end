@@ -1,0 +1,30 @@
+@media(max-width: 768px)
+{
+	#image{
+		display: none;
+	}
+}
+@media(min-width: 768px)
+{
+	#button{
+		display: none;
+	}
+}
+section{
+	box-sizing: border-box;
+	background: lightgrey;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 5%;
+}
+p{
+	box-sizing: border-box;
+	position: relative;
+	padding: 5px;
+	right: -35%;
+	width: 30%;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
